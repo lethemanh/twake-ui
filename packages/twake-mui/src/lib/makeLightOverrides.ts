@@ -3,6 +3,7 @@ import { Theme, Components, alpha } from '@mui/material/styles'
 import { accordionOverrides } from './overrides/accordionOverrides'
 import { autocompleteOverrides } from './overrides/autocompleteOverrides'
 import { avatarOverrides } from './overrides/avatarOverrides'
+import { backdropOverrides } from './overrides/backdropOverrides'
 import { buttonOverrides } from './overrides/buttonOverrides'
 import { checkboxOverrides } from './overrides/checkboxOverrides'
 import { datePickerOverrides } from './overrides/datePickerOverrides'
@@ -46,6 +47,7 @@ export const makeLightOverrides = (theme: Theme): Components => {
     MuiToggleButton: toggleButtonOverrides(theme),
     MuiIconButton: iconButtonOverrides(),
     MuiCheckbox: checkboxOverrides(),
+    MuiBackdrop: backdropOverrides(theme),
     MuiTypography: {
       styleOverrides: {
         root: {
