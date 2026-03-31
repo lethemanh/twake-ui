@@ -13,6 +13,7 @@ import {
   dialogActionsOverrides
 } from './overrides/dialogOverrides'
 import { iconButtonOverrides } from './overrides/iconButtonOverrides'
+import { menuItemOverrides } from './overrides/menuItemOverrides'
 import { popoverOverrides } from './overrides/popoverOverrides'
 import {
   textFieldOverrides,
@@ -69,6 +70,7 @@ export const makeLightOverrides = (theme: Theme): Components => {
           unknown
         >) || {})
       }
-    }
+    },
+    MuiMenuItem: menuItemOverrides(theme)
   }
 }
