@@ -9,7 +9,7 @@ export const menuItemOverrides = (theme: Theme): Components['MuiMenuItem'] => {
       root: {
         borderRadius: radius.md,
         '&&&:hover': {
-          backgroundColor: `${alpha(theme.palette.primary.main, theme.palette.action.hoverOpacity)}`,
+          backgroundColor: `${alpha(theme.palette.primary.main, theme.palette.action.hoverOpacity)}`
         },
         [`&.${menuItemClasses.selected}`]: {
           backgroundColor: alpha(
@@ -20,8 +20,8 @@ export const menuItemOverrides = (theme: Theme): Components['MuiMenuItem'] => {
             backgroundColor: alpha(
               theme.palette.primary.main,
               theme.palette.action.selectedOpacity +
-              theme.palette.action.hoverOpacity
-            ),
+                theme.palette.action.hoverOpacity
+            )
           }
         }
       }
