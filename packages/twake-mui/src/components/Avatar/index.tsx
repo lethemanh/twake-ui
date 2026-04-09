@@ -51,8 +51,8 @@ export const Avatar: React.FC<AvatarProps> = ({
     color === 'none'
       ? undefined
       : color && supportedColors.includes(color)
-      ? color
-      : defaultColor
+        ? color
+        : defaultColor
 
   const classNames: string[] = []
   if (className) classNames.push(className)
