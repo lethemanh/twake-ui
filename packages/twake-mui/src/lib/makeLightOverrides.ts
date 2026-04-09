@@ -16,6 +16,7 @@ import {
 import { iconButtonOverrides } from './overrides/iconButtonOverrides'
 import { menuItemOverrides } from './overrides/menuItemOverrides'
 import { popoverOverrides } from './overrides/popoverOverrides'
+import { swipeableDrawerOverrides } from './overrides/swipeableDrawerOverrides'
 import {
   textFieldOverrides,
   outlinedInputOverrides,
@@ -73,6 +74,7 @@ export const makeLightOverrides = (theme: Theme): Components => {
         >) || {})
       }
     },
-    MuiMenuItem: menuItemOverrides(theme)
+    MuiMenuItem: menuItemOverrides(theme),
+    MuiSwipeableDrawer: swipeableDrawerOverrides(theme)
   }
 }
