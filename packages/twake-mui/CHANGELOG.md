@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/linagora/twake-ui/compare/v1.3.0...v1.4.0) (2026-04-09)
+
+
+### Features
+
+* **twake-mui:** Now expose .d.ts ([945d3b2](https://github.com/linagora/twake-ui/commit/945d3b2e1616f9be237f1416630aef7014331226))
+
 # [1.3.0](https://github.com/linagora/twake-ui/compare/v1.2.0...v1.3.0) (2026-04-09)
 
 
