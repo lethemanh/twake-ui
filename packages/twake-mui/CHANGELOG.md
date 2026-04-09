@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/linagora/twake-ui/compare/v1.2.0...v1.3.0) (2026-04-09)
+
+
+### Features
+
+* **twake-mui:** Update datePicker and textField overrides ([9a0013e](https://github.com/linagora/twake-ui/commit/9a0013e22184f6f480ccbf06ec205c582492a410))
+
 # [1.2.0](https://github.com/linagora/twake-ui/compare/v1.1.0...v1.2.0) (2026-04-09)
 
 
