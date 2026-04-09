@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/linagora/twake-ui/compare/v1.1.0...v1.2.0) (2026-04-09)
+
+
+### Bug Fixes
+
+* remove :has() selector for jsdom compatibility in tests ([252889d](https://github.com/linagora/twake-ui/commit/252889d6499fa3ad76cfa7de8d05e88a5fe9197f))
+
+
+### Features
+
+* add component overrides for DatePicker, Accordion, Checkbox, IconButton ([c5e18a1](https://github.com/linagora/twake-ui/commit/c5e18a1faba4f8a65c7eaa56d5c3f0581be8aa59))
+* **twake-mui:** add Avatar component with gradient background support ([d3ad072](https://github.com/linagora/twake-ui/commit/d3ad072f78d94068a4675adb8493b630e9d7add2))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
