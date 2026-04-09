@@ -3,13 +3,9 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx"],
   "compilerOptions": {
-    "declaration": true,
-    "emitDeclarationOnly": false,
-    "outDir": "./dist",
     "rootDir": "./src",
-    "jsx": "react",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "outDir": "./dist",
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": false
   }
 }
