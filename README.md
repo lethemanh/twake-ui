@@ -61,6 +61,68 @@ To run a script in a specific package:
 npm run <script> --workspace=twake-mui
 ```
 
+## Release Management
+
+This monorepo uses **semantic-release** with independent versioning for each package. The release process is fully automated via GitHub Actions.
+
+### How it works
+
+```text
+PR merged to main
+    ↓
+CI/CD runs scripts/release.sh
+    ↓
+Detects which packages have changes
+    ↓
+Runs semantic-release only on modified packages
+    ↓
+Version bump + npm publish + GitHub release
+```
+
+### Testing releases locally (dry-run)
+
+```bash
+# Test dry-run for a specific package
+npm run release:dry -- twake-mui
+
+# This shows:
+# - Next version number
+# - Release notes
+# - Commits analyzed
+# Without publishing anything!
+```
+
+## Adding New Packages
+
+When adding a new package to the monorepo, you only need to add one file:
+
+### 1. Create `.releaserc.json` in your package
+
+```bash
+cp packages/twake-mui/.releaserc.json packages/your-new-package/
+```
+
+That's it! The `scripts/release.sh` will automatically detect your new package and handle releases.
+
+### Required package.json fields
+
+Ensure your `package.json` includes:
+
+```json
+{
+  "name": "@linagora/your-new-package",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
+  ]
+}
+```
+
 ## License
 
 MIT

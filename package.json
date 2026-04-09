@@ -28,9 +28,15 @@
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
     "lint:fix": "npm run lint --workspaces --if-present -- --fix",
-    "clean": "npm run clean --workspaces && rm -rf node_modules"
+    "clean": "npm run clean --workspaces && rm -rf node_modules",
+    "release": "./scripts/release.sh",
+    "release:dry": "./scripts/release-dry-run.sh"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "semantic-release": "^24.2.9",
     "typescript": "5.5.2"
   }
 }
