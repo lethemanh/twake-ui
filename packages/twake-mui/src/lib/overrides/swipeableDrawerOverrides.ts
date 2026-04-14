@@ -2,6 +2,8 @@ import { Components, Theme } from '@mui/material/styles'
 
 import { radius } from '../radius'
 
+// MuiSwipeableDrawer inherits from MuiDrawer.
+// To style the paper (the actual container) of a swipeable drawer, we have to target MuiDrawer
 export const swipeableDrawerOverrides = (
   theme: Theme
 ): Components['MuiSwipeableDrawer'] => {
