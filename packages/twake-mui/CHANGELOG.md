@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/linagora/twake-ui/compare/v1.4.0...v1.5.0) (2026-04-14)
+
+
+### Features
+
+* Add swipeable override :sparkles: ([15af929](https://github.com/linagora/twake-ui/commit/15af92994a086ea49a7a0957cfeb6c3a09d0e96b))
+
 # [1.4.0](https://github.com/linagora/twake-ui/compare/v1.3.0...v1.4.0) (2026-04-09)
 
 
