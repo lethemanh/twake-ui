@@ -39,11 +39,14 @@
   },
   "scripts": {
     "build": "tsc",
+    "build:doc": "storybook build --output-dir storybook-static",
     "start": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "doc": "storybook dev -p 6006",
+    "screenshots": "vitest run"
   },
   "peerDependencies": {
     "@emotion/react": "^11.5.0",
