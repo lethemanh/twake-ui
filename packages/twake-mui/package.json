@@ -1,5 +1,6 @@
 {
   "name": "@linagora/twake-mui",
+  "type": "module",
   "version": "1.5.0",
   "description": "MUI v7 theme system for Twake applications",
   "author": "Twake",
@@ -21,9 +22,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "main": "dist/index.js",
@@ -38,36 +38,44 @@
   },
   "scripts": {
     "build": "tsc",
+    "build:doc": "storybook build --output-dir storybook-static",
     "start": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
-    "clean": "rm -rf dist"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "clean": "rm -rf dist",
+    "doc": "storybook dev -p 6006",
+    "screenshots": "vitest run"
   },
   "peerDependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
     "@mui/material": "^7.1.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/react": "18.3.26",
-    "@types/react-dom": "18.3.7",
-    "cozy-tsconfig": "^1.9.0",
-    "eslint": "10.1.0",
-    "eslint-config-cozy-app": "7.0.0"
-  },
-  "peerDependenciesMeta": {
-    "react": {
-      "optional": false
-    },
-    "react-dom": {
-      "optional": false
-    }
+    "@argos-ci/cli": "4.2.0",
+    "@argos-ci/storybook": "5.3.2",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "7.3.10",
+    "@mui/material": "^7.1.2",
+    "@storybook/addon-docs": "10.3.5",
+    "@storybook/addon-vitest": "10.3.5",
+    "@storybook/builder-vite": "10.3.5",
+    "@storybook/react": "10.3.5",
+    "@storybook/react-vite": "10.3.5",
+    "@vitest/browser-playwright": "4.1.5",
+    "cozy-tsconfig": "^2.0.0",
+    "eslint": "10.2.1",
+    "eslint-config-cozy-app": "7.0.0",
+    "eslint-plugin-storybook": "10.3.5",
+    "playwright": "1.59.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "10.3.5",
+    "vite": "8.0.9",
+    "vitest": "4.1.5"
   }
 }
