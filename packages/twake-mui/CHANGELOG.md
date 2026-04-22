@@ -1,3 +1,17 @@
+# [1.6.0](https://github.com/linagora/twake-ui/compare/v1.5.0...v1.6.0) (2026-04-22)
+
+
+### Bug Fixes
+
+* ESM/CJS mismatch in exports ([bd31d2d](https://github.com/linagora/twake-ui/commit/bd31d2db3b8993da5cafe582cb350441a7d05685))
+
+
+### Features
+
+* Add all storybook/argos config files ([6a774a9](https://github.com/linagora/twake-ui/commit/6a774a97cedfacaa8387f3b4d5b75503efd7ae65))
+* Add packages for storybook and argos ([729e937](https://github.com/linagora/twake-ui/commit/729e93734f0e09d639871410f0256cbba0939ad9))
+* Add storybook stories ([9a141ca](https://github.com/linagora/twake-ui/commit/9a141ca06d2c5cfd9ec8a8142a5c5a34452cfd90))
+
 # [1.5.0](https://github.com/linagora/twake-ui/compare/v1.4.0...v1.5.0) (2026-04-14)
 
 
