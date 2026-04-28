@@ -6,7 +6,21 @@ const meta: Meta<typeof Button> = {
   title: 'Button',
   component: Button,
   parameters: { layout: 'centered' },
-  tags: ['autodocs']
+  tags: ['autodocs'],
+  argTypes: {
+    variant: {
+      control: 'select',
+      options: ['contained', 'outlined', 'text']
+    },
+    color: {
+      control: 'select',
+      options: ['primary', 'secondary', 'error', 'warning', 'info', 'success']
+    },
+    size: {
+      control: 'select',
+      options: ['small', 'medium', 'large']
+    }
+  }
 }
 
 export default meta
@@ -36,16 +50,71 @@ export const Screenshot: Story = {
 
       {/* Colors */}
       <section>
-        <h3 style={{ marginBottom: '12px' }}>Colors</h3>
-        <Stack direction="row" spacing={2}>
+        <h3 style={{ marginBottom: '12px' }}>Colors contained</h3>
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
           <Button variant="contained" color="primary">
             Primary
           </Button>
           <Button variant="contained" color="secondary">
             Secondary
           </Button>
+          <Button variant="contained" color="success">
+            Success
+          </Button>
           <Button variant="contained" color="error">
             Error
+          </Button>
+          <Button variant="contained" color="warning">
+            Warning
+          </Button>
+          <Button variant="contained" color="info">
+            Info
+          </Button>
+        </Stack>
+      </section>
+      <section>
+        <h3 style={{ marginBottom: '12px' }}>Colors outlined</h3>
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
+          <Button variant="outlined" color="primary">
+            Primary
+          </Button>
+          <Button variant="outlined" color="secondary">
+            Secondary
+          </Button>
+          <Button variant="outlined" color="success">
+            Success
+          </Button>
+          <Button variant="outlined" color="error">
+            Error
+          </Button>
+          <Button variant="outlined" color="warning">
+            Warning
+          </Button>
+          <Button variant="outlined" color="info">
+            Info
+          </Button>
+        </Stack>
+      </section>
+      <section>
+        <h3 style={{ marginBottom: '12px' }}>Colors text</h3>
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
+          <Button variant="text" color="primary">
+            Primary
+          </Button>
+          <Button variant="text" color="secondary">
+            Secondary
+          </Button>
+          <Button variant="text" color="success">
+            Success
+          </Button>
+          <Button variant="text" color="error">
+            Error
+          </Button>
+          <Button variant="text" color="warning">
+            Warning
+          </Button>
+          <Button variant="text" color="info">
+            Info
           </Button>
         </Stack>
       </section>
