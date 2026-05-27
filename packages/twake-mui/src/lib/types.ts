@@ -114,6 +114,8 @@ export interface TypographyVariants {
   buttonSmall: TypographyConfig
   caption: TypographyConfig
   overline: TypographyConfig
+  dialogTitle: TypographyConfig
+  body2WordBreak: TypographyConfig
 }
 
 export type MakeTypography = () => TypographyOptions

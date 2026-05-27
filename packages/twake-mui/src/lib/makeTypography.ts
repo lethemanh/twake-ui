@@ -108,6 +108,20 @@ export const makeTypography = (): TypographyVariantsOptions => {
       lineHeight: 1.455,
       letterSpacing: '0.4px',
       textTransform: 'none'
+    },
+    dialogTitle: {
+      fontSize: 24,
+      fontWeight: 600,
+      lineHeight: 1.333,
+      letterSpacing: '0',
+      overflowWrap: 'break-word'
+    },
+    body2WordBreak: {
+      fontSize: 14,
+      fontWeight: 400,
+      lineHeight: 1.429,
+      letterSpacing: '0.25px',
+      overflowWrap: 'break-word'
     }
   } as TypographyVariantsOptions
 }
