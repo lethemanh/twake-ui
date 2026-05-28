@@ -1,5 +1,5 @@
 import { menuItemClasses } from '@mui/material/MenuItem'
-import { Theme, Components, alpha } from '@mui/material/styles'
+import { Theme, ThemeOptions, alpha } from '@mui/material/styles'
 
 import paletteJson from './palette.json'
 import { radius } from './radius'
@@ -7,7 +7,9 @@ import { PaletteJson } from './types'
 
 const paletteData = paletteJson as PaletteJson
 
-export const makeLightOverrides = (theme: Theme): Components => {
+export const makeLightOverrides = (
+  theme: Theme
+): NonNullable<ThemeOptions['components']> => {
   return {
     MuiButton: {
       styleOverrides: {
@@ -536,7 +538,7 @@ export const makeLightOverrides = (theme: Theme): Components => {
           margin: '0',
           color: alpha(theme.palette.grey[900], 0.48)
         },
-        '.MuiDateCalendar-root .MuiPickersDay-root': {
+        '.MuiDateCalendar-root .MuiPickerDay-root': {
           fontSize: '10px',
           fontStyle: 'normal',
           fontWeight: 500,
@@ -546,14 +548,16 @@ export const makeLightOverrides = (theme: Theme): Components => {
           margin: '0',
           color: alpha(theme.palette.grey[900], 0.9)
         },
-        '.MuiDateCalendar-root .MuiPickersDay-root.Mui-selected': {
+        '.MuiDateCalendar-root .MuiPickerDay-root.Mui-selected': {
+          color: 'white',
           backgroundColor: theme.palette.primary.main,
           '&:hover': {
             backgroundColor: theme.palette.primary.dark
           }
         },
-        '.MuiDateCalendar-root .MuiButtonBase-root.MuiPickersDay-root.Mui-selected':
+        '.MuiDateCalendar-root .MuiButtonBase-root.MuiPickerDay-root.Mui-selected':
           {
+            color: 'white',
             backgroundColor: `${theme.palette.primary.main}`,
             '&:hover': {
               backgroundColor: `${theme.palette.primary.dark}`
