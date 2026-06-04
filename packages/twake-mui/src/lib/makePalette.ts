@@ -6,62 +6,63 @@ import { PaletteJson } from './types'
 const paletteData = paletteJson as PaletteJson
 
 export const makePalette = (
-  mode: 'light' | 'dark' = 'light'
+  mode: 'light' | 'dark' = 'light',
+  palette: PaletteJson = paletteData
 ): PaletteOptions => {
   return {
     mode,
     primary: {
-      light: paletteData.Primary[300],
-      main: paletteData.Primary[600],
-      dark: paletteData.Primary[800],
-      contrastText: paletteData.Primary.ContrastText
+      light: palette.Primary[300],
+      main: palette.Primary[600],
+      dark: palette.Primary[800],
+      contrastText: palette.Primary.ContrastText
     },
     secondary: {
-      light: paletteData.Secondary[300],
-      main: paletteData.Secondary[600],
-      dark: paletteData.Secondary[800],
-      contrastText: paletteData.Secondary.ContrastText
+      light: palette.Secondary[300],
+      main: palette.Secondary[600],
+      dark: palette.Secondary[800],
+      contrastText: palette.Secondary.ContrastText
     },
     error: {
-      light: paletteData.Error[300],
-      main: paletteData.Error[600],
-      dark: paletteData.Error[800],
-      contrastText: paletteData.Error.ContrastText
+      light: palette.Error[300],
+      main: palette.Error[600],
+      dark: palette.Error[800],
+      contrastText: palette.Error.ContrastText
     },
     warning: {
-      light: paletteData.Warning[300],
-      main: paletteData.Warning[500],
-      dark: paletteData.Warning[700],
-      contrastText: paletteData.Warning.ContrastText
+      light: palette.Warning[300],
+      main: palette.Warning[500],
+      dark: palette.Warning[700],
+      contrastText: palette.Warning.ContrastText
     },
     success: {
-      light: paletteData.Success[300],
-      main: paletteData.Success[600],
-      dark: paletteData.Success[800],
-      contrastText: paletteData.Success.ContrastText
+      light: palette.Success[300],
+      main: palette.Success[600],
+      dark: palette.Success[800],
+      contrastText: palette.Success.ContrastText
     },
     info: {
-      light: paletteData.Info[300],
-      main: paletteData.Info[600],
-      dark: paletteData.Info[800],
+      light: palette.Info[300],
+      main: palette.Info[600],
+      dark: palette.Info[800],
       contrastText: '#fff'
     },
     grey: {
-      50: paletteData.Grey[50],
-      100: paletteData.Grey[100],
-      200: paletteData.Grey[200],
-      300: paletteData.Grey[300],
-      400: paletteData.Grey[400],
-      500: paletteData.Grey[500],
-      600: paletteData.Grey[600],
-      700: paletteData.Grey[700],
-      800: paletteData.Grey[800],
-      900: paletteData.Grey[900],
-      A100: paletteData.Grey.A100,
-      A200: paletteData.Grey.A200,
-      A400: paletteData.Grey.A400,
-      A700: paletteData.Grey.A700,
-      A900: paletteData.Grey.A900
+      50: palette.Grey[50],
+      100: palette.Grey[100],
+      200: palette.Grey[200],
+      300: palette.Grey[300],
+      400: palette.Grey[400],
+      500: palette.Grey[500],
+      600: palette.Grey[600],
+      700: palette.Grey[700],
+      800: palette.Grey[800],
+      900: palette.Grey[900],
+      A100: palette.Grey.A100,
+      A200: palette.Grey.A200,
+      A400: palette.Grey.A400,
+      A700: palette.Grey.A700,
+      A900: palette.Grey.A900
     } as PaletteOptions['grey'],
     text: {
       primary: '#000000',
@@ -74,7 +75,7 @@ export const makePalette = (
     },
     divider: '#E1E3E6',
     action: {
-      active: paletteData.Primary['A400'],
+      active: palette.Primary['A400'],
       hover: 'rgba(246, 126, 53, 0.04)',
       selected: 'rgba(246, 126, 53, 0.08)',
       disabled: 'rgba(0, 0, 0, 0.32)',
