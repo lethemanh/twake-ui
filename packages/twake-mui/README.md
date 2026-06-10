@@ -1,6 +1,6 @@
 # twake-mui
 
-MUI v7 theme system for Twake Calendar and other Twake applications.
+MUI v9 theme system for Twake Calendar and other Twake applications.
 
 ## Requirements
 
@@ -58,7 +58,7 @@ function MyComponent() {
 
 - **Palette System**: Techno-independent color definitions
 - **Component Overrides**: Pre-styled Button, TextField, Dialog components
-- **MUI v7 Compatible**: Built for Material-UI v7
+- **MUI v9 Compatible**: Built for Material-UI v9
 
 ## Development
 

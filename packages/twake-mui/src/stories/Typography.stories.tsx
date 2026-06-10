@@ -61,8 +61,12 @@ export const Screenshot: Story = {
           <Typography color="textPrimary">Text primary color</Typography>
           <Typography color="textSecondary">Text secondary color</Typography>
           <Typography color="textDisabled">Text disabled color</Typography>
-          <Typography color="text.primary">Text primary color</Typography>
-          <Typography color="text.secondary">Text secondary color</Typography>
+          <Typography sx={{ color: 'text.primary' }}>
+            Text primary color
+          </Typography>
+          <Typography sx={{ color: 'text.secondary' }}>
+            Text secondary color
+          </Typography>
         </Stack>
       </section>
     </Stack>

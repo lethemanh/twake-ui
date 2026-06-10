@@ -2,7 +2,7 @@
   "name": "@linagora/twake-mui",
   "type": "module",
   "version": "1.6.1",
-  "description": "MUI v7 theme system for Twake applications",
+  "description": "MUI v9 theme system for Twake applications",
   "author": "Twake",
   "license": "MIT",
   "engines": {
@@ -50,7 +50,7 @@
   "peerDependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
-    "@mui/material": "^7.1.2",
+    "@mui/material": "^9.0.1",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -59,8 +59,8 @@
     "@argos-ci/storybook": "5.3.2",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
-    "@mui/icons-material": "7.3.10",
-    "@mui/material": "^7.1.2",
+    "@mui/icons-material": "^9.0.1",
+    "@mui/material": "^9.0.1",
     "@storybook/addon-docs": "10.3.5",
     "@storybook/addon-vitest": "10.3.5",
     "@storybook/builder-vite": "10.3.5",

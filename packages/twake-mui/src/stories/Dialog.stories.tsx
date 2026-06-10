@@ -61,7 +61,7 @@ export const Screenshot: Story = {
       <section>
         <h3 style={{ marginBottom: '12px' }}>Dialog Components</h3>
         <Stack spacing={2}>
-          <Dialog open={true}>
+          <Dialog open={true} disableAutoFocus>
             <DialogTitle>Standard Dialog</DialogTitle>
             <DialogContent>
               <DialogContentText>

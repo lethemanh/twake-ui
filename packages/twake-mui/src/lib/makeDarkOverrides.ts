@@ -1,10 +1,14 @@
-import { Theme, Components, alpha } from '@mui/material/styles'
+import { Theme, ThemeOptions, alpha } from '@mui/material/styles'
 import { merge } from 'lodash'
 
 import { makeLightOverrides } from './makeLightOverrides'
 
-export const makeDarkOverrides = (theme: Theme): Components => {
-  const makeOverridesForDarkTheme = (theme: Theme): Components => ({
+export const makeDarkOverrides = (
+  theme: Theme
+): NonNullable<ThemeOptions['components']> => {
+  const makeOverridesForDarkTheme = (
+    theme: Theme
+  ): NonNullable<ThemeOptions['components']> => ({
     MuiTypography: {
       styleOverrides: {
         root: {
@@ -17,7 +21,7 @@ export const makeDarkOverrides = (theme: Theme): Components => {
     }
   })
 
-  const DarkOverrides: Components = merge(
+  const DarkOverrides: NonNullable<ThemeOptions['components']> = merge(
     makeLightOverrides(theme),
     makeOverridesForDarkTheme(theme)
   )
