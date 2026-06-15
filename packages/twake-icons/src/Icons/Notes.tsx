@@ -1,0 +1,74 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgNotes(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 33 33"
+      {...props}
+    >
+      <rect
+        width={32}
+        height={32}
+        x={0.718}
+        y={0.718}
+        fill="url(#notes_svg__a)"
+        rx={10.568}
+      />
+      <g filter="url(#notes_svg__b)">
+        <path
+          fill="#fff"
+          fillRule="evenodd"
+          d="M16.71 6.43c-1.434 0-2.628.913-2.886 2.12h-1.847a4.57 4.57 0 0 0-4.569 4.57v9.464a4.57 4.57 0 0 0 4.57 4.569h9.464a4.57 4.57 0 0 0 4.569-4.57V13.12a4.57 4.57 0 0 0-4.57-4.57h-1.846c-.258-1.207-1.451-2.12-2.885-2.12m2.266 6.823c.51-.51 1.337-.51 1.846 0l.347.346c.51.51.51 1.337 0 1.846l-.577.577-2.193-2.192zm-1.269 1.27 2.192 2.192-6.135 6.135a.33.33 0 0 1-.23.095h-1.731a.326.326 0 0 1-.327-.326v-1.73c0-.087.035-.17.096-.231l6.135-6.136Z"
+          clipRule="evenodd"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="notes_svg__a"
+          x1={6.266}
+          x2={30.906}
+          y1={29.845}
+          y2={2.676}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0.23} stopColor="#ffb81e" />
+          <stop offset={1} stopColor="#ffe098" />
+        </linearGradient>
+        <filter
+          id="notes_svg__b"
+          width={21.866}
+          height={23.987}
+          x={5.777}
+          y={5.124}
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity={0} result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset dy={0.326} />
+          <feGaussianBlur stdDeviation={0.816} />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_11347_30909"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_11347_30909"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+}
+export default SvgNotes;
+

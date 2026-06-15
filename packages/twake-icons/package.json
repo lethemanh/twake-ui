@@ -1,0 +1,72 @@
+{
+  "name": "@linagora/twake-icons",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Icon library for Twake applications — SVG icons and illustrations",
+  "author": "Twake",
+  "license": "MIT",
+  "engines": {
+    "node": "24.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linagora/twake-ui.git",
+    "directory": "packages/twake-icons"
+  },
+  "keywords": [
+    "twake",
+    "icons",
+    "svg",
+    "react"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:doc": "storybook build --output-dir storybook-static",
+    "start": "tsc --watch",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "copy-icons": "scripts/copy-icons-from-cozy-ui.sh",
+    "svgo": "svgo -r --folder assets",
+    "makeSvgr": "scripts/generate-svgr.sh",
+    "sprite": "scripts/make-sprite.sh",
+    "build:icons": "npm run svgo && npm run makeSvgr && npm run sprite",
+    "doc": "storybook dev -p 6007"
+  },
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "10.4.5",
+    "@storybook/builder-vite": "10.4.5",
+    "@storybook/react": "10.4.5",
+    "@storybook/react-vite": "10.4.5",
+    "@svgr/cli": "8.1.0",
+    "@types/react": "18.2.0",
+    "cozy-tsconfig": "^2.0.0",
+    "eslint": "10.5.0",
+    "eslint-config-cozy-app": "^7.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "10.4.5",
+    "svgo": "4.0.1",
+    "svgstore-cli": "2.0.1",
+    "vite": "8.0.16"
+  }
+}

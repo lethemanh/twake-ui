@@ -1,0 +1,104 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgPhotos(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 32 32"
+      {...props}
+    >
+      <rect width={32} height={32} fill="url(#photos_svg__a)" rx={10} />
+      <g fill="#fff" filter="url(#photos_svg__b)">
+        <mask id="photos_svg__c">
+          <path d="M18.955 5.711c2.579 0 3.868 0 4.853.502a4.6 4.6 0 0 1 2.013 2.013c.502.985.502 2.274.502 4.853v5.988c0 2.579 0 3.868-.502 4.853a4.6 4.6 0 0 1-2.013 2.013c-.985.502-2.274.502-4.853.502h-5.988c-2.579 0-3.868 0-4.853-.502A4.6 4.6 0 0 1 6.1 23.92c-.502-.985-.502-2.274-.502-4.853v-5.988c0-2.579 0-3.868.502-4.853a4.6 4.6 0 0 1 2.013-2.013c.985-.502 2.274-.502 4.853-.502z" />
+        </mask>
+        <path
+          d="M18.955 5.711V3.223 5.71Zm4.853.502-1.13 2.217zm2.013 2.013-2.218 1.13zm.502 4.853h2.488zm0 5.988h2.488zm-.502 4.853-2.218-1.13zm-2.013 2.013-1.13-2.218zm-4.853.502v2.488zm-5.988 0v2.488zm-4.853-.502 1.13-2.217zM6.1 23.92l2.217-1.13zm-.5-4.853H3.111zm0-5.988H3.111zm.502-4.853 2.217 1.13zm2.013-2.013 1.13 2.217zm4.853-.502V3.223 5.71ZM18.955 8.2c1.33 0 2.178.002 2.821.054.614.05.82.134.902.176l2.26-4.434c-.902-.46-1.834-.627-2.756-.702-.893-.073-1.979-.071-3.227-.071zm3.723.23c.399.203.723.527.925.926l4.435-2.26a7.1 7.1 0 0 0-3.1-3.1zm.925.926c.043.083.127.288.177.902.052.643.054 1.49.054 2.821h4.977c0-1.248.002-2.334-.07-3.227-.076-.922-.243-1.854-.703-2.756zm.231 3.723v5.988h4.977v-5.988zm0 5.988c0 1.33-.002 2.178-.054 2.821-.05.614-.134.82-.177.902l4.435 2.26c.46-.902.627-1.834.702-2.756.073-.893.071-1.979.071-3.227zm-.23 3.724a2.1 2.1 0 0 1-.926.924l2.26 4.435a7.1 7.1 0 0 0 3.1-3.1l-4.434-2.26Zm-.926.925c-.083.042-.288.126-.902.176-.643.052-1.49.054-2.821.054v4.977c1.248 0 2.334.002 3.227-.07.922-.076 1.854-.243 2.756-.703zm-3.723.23h-5.988v4.977h5.988zm-5.988 0c-1.33 0-2.178-.002-2.822-.054-.614-.05-.818-.134-.901-.176l-2.26 4.434c.902.46 1.834.627 2.756.702.893.073 1.979.071 3.227.071zm-3.724-.23a2.1 2.1 0 0 1-.925-.925L3.884 25.05a7.1 7.1 0 0 0 3.1 3.1zm-.925-.926c-.042-.083-.126-.288-.176-.902-.052-.643-.054-1.49-.054-2.821H3.11c0 1.248-.002 2.334.07 3.227.076.922.243 1.854.703 2.756zm-.23-3.723v-5.988H3.11v5.988zm0-5.988c0-1.33.002-2.178.054-2.821.05-.614.134-.82.176-.902l-4.434-2.26c-.46.902-.627 1.834-.702 2.756-.073.893-.071 1.979-.071 3.227zm.23-3.723c.203-.399.527-.723.925-.926L6.984 3.996a7.1 7.1 0 0 0-3.1 3.1zm.926-.926c.083-.042.287-.126.902-.176.643-.052 1.49-.054 2.821-.054V3.223c-1.248 0-2.334-.002-3.227.07-.922.076-1.854.243-2.756.703zm3.723-.23h5.988V3.223h-5.988z"
+          mask="url(#photos_svg__c)"
+        />
+      </g>
+      <g filter="url(#photos_svg__d)">
+        <circle cx={13.5} cy={13.5} r={2.5} fill="#fff" />
+      </g>
+      <path
+        fill="#fff"
+        d="M7.538 23.26a.467.467 0 0 0 .377.74h17.162a.467.467 0 0 0 .376-.743l-5.205-7.071a1 1 0 0 0-1.654.063l-2.955 4.728a1 1 0 0 1-1.641.08l-1.682-2.194a1 1 0 0 0-1.603.021z"
+      />
+      <defs>
+        <filter
+          id="photos_svg__b"
+          width={23.987}
+          height={23.987}
+          x={3.967}
+          y={4.406}
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity={0} result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset dy={0.326} />
+          <feGaussianBlur stdDeviation={0.816} />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_4180_38328"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_4180_38328"
+            result="shape"
+          />
+        </filter>
+        <filter
+          id="photos_svg__d"
+          width={8.264}
+          height={8.264}
+          x={9.368}
+          y={9.695}
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity={0} result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset dy={0.326} />
+          <feGaussianBlur stdDeviation={0.816} />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_4180_38328"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_4180_38328"
+            result="shape"
+          />
+        </filter>
+        <linearGradient
+          id="photos_svg__a"
+          x1={5.548}
+          x2={30.188}
+          y1={29.127}
+          y2={1.958}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0.23} stopColor="#50bbc7" />
+          <stop offset={1} stopColor="#73deea" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
+export default SvgPhotos;
+

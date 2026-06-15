@@ -1,0 +1,67 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgStore(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 16 16"
+      {...props}
+    >
+      <rect width={16} height={16} fill="url(#store_svg__a)" rx={5.284} />
+      <g filter="url(#store_svg__b)">
+        <path
+          fill="#fff"
+          fillRule="evenodd"
+          d="M13.796 5.66a1.39 1.39 0 0 1-.578 1.64v3.633a2.284 2.284 0 0 1-2.285 2.284H5.14a2.284 2.284 0 0 1-2.284-2.284V7.296a1.39 1.39 0 0 1-.573-1.636l.658-1.877c.195-.556.72-.928 1.309-.928h7.579c.59 0 1.114.372 1.309.928zm-3.871.959q-.201.266-.59.266a.64.64 0 0 1-.49-.223.76.76 0 0 1-.201-.525v-2.13h1.123l.316 2.015a.8.8 0 0 1-.158.597m-2.641.043a.7.7 0 0 1-.54.223q-.33 0-.54-.259a.73.73 0 0 1-.15-.604l.316-2.015h1.123v2.13q0 .301-.209.525m-2.648.036a.63.63 0 0 1-.453.187q-.418 0-.598-.33-.18-.332-.093-.62l.576-1.928H5.19l-.317 2.216a.8.8 0 0 1-.237.475m7.923-.144q-.188.33-.605.331a.63.63 0 0 1-.453-.187.8.8 0 0 1-.238-.475l-.316-2.216h1.093l.605 1.928q.1.288-.086.62Z"
+          clipRule="evenodd"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="store_svg__a"
+          x1={2.774}
+          x2={15.094}
+          y1={14.564}
+          y2={0.979}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0.23} stopColor="#3d74fe" />
+          <stop offset={1} stopColor="#91cfff" />
+        </linearGradient>
+        <filter
+          id="store_svg__b"
+          width={13.304}
+          height={11.993}
+          x={1.387}
+          y={2.203}
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity={0} result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset dy={0.163} />
+          <feGaussianBlur stdDeviation={0.408} />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_11291_1430"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_11291_1430"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+}
+export default SvgStore;
+

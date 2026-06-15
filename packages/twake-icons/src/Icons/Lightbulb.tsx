@@ -1,0 +1,12 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgLightbulb(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16" {...props}>
+      <path d="M3.6 15.2c0 .44.36.8.8.8h3.2c.44 0 .8-.36.8-.8v-.8H3.6zM6 0A5.606 5.606 0 0 0 .4 5.6c0 1.904.952 3.576 2.4 4.592V12c0 .44.36.8.8.8h4.8c.44 0 .8-.36.8-.8v-1.808A5.6 5.6 0 0 0 11.6 5.6C11.6 2.512 9.088 0 6 0m2.28 8.88-.68.48v1.84H4.4V9.36l-.68-.48A4 4 0 0 1 2 5.6c0-2.208 1.792-4 4-4s4 1.792 4 4c0 1.304-.64 2.528-1.72 3.28" />
+    </svg>
+  );
+}
+export default SvgLightbulb;
+

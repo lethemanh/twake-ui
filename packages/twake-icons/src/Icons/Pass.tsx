@@ -1,0 +1,70 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgPass(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 32 32"
+      {...props}
+    >
+      <path
+        fill="url(#pass_svg__a)"
+        d="M0 10.568C0 4.731 4.73 0 10.568 0h10.864C27.268 0 32 4.731 32 10.568v10.864C32 27.269 27.268 32 21.432 32H10.568C4.73 32 0 27.268 0 21.432z"
+      />
+      <g filter="url(#pass_svg__b)">
+        <path
+          fill="#fff"
+          fillRule="evenodd"
+          d="M9.328 23.872a.62.62 0 0 1-.618-.63l.023-1.823 5.177-5.176q-.682-1.426-.458-3.077.226-1.651 1.48-2.906 1.551-1.55 3.72-1.55t3.72 1.55 1.55 3.72q0 2.169-1.55 3.72a5.14 5.14 0 0 1-2.836 1.472 5.1 5.1 0 0 1-3.146-.45l-.218.217v1.858a.62.62 0 0 1-.622.622h-1.235a.62.62 0 0 0-.622.623v1.231a.62.62 0 0 1-.626.622zm10.256-9.294a1.555 1.555 0 1 0 0-3.11 1.555 1.555 0 0 0 0 3.11"
+          clipRule="evenodd"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="pass_svg__a"
+          x1={5.548}
+          x2={30.188}
+          y1={29.127}
+          y2={1.958}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset={0.23} stopColor="#b6c4df" />
+          <stop offset={1} stopColor="#d3ddf5" />
+        </linearGradient>
+        <filter
+          id="pass_svg__b"
+          width={20.652}
+          height={20.625}
+          x={5.99}
+          y={6.534}
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity={0} result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset dy={0.544} />
+          <feGaussianBlur stdDeviation={1.36} />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_11350_7889"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_11350_7889"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+}
+export default SvgPass;
+

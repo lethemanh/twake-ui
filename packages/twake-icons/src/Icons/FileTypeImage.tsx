@@ -1,0 +1,30 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgFileTypeImage(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 15 17"
+      {...props}
+    >
+      <path
+        fill="#fbfdf5"
+        stroke="#a8d306"
+        d="M3.52 1.3h5.792l4.908 4.907V13.6a2.7 2.7 0 0 1-2.7 2.7h-8a2.7 2.7 0 0 1-2.7-2.7V4a2.7 2.7 0 0 1 2.7-2.7Z"
+      />
+      <path
+        fill="#a8d306"
+        d="M14.72 6.2 9.32.8v2.793c0 1.44 1.128 2.607 2.52 2.607z"
+      />
+      <circle cx={10.632} cy={7.818} r={0.938} fill="#a8d306" />
+      <path
+        fill="#a8d306"
+        d="M3.11 13.385a.23.23 0 0 0 .18.37h8.435a.23.23 0 0 0 .18-.37l-2.64-3.38-2.343 3-1.758-2.25z"
+      />
+    </svg>
+  );
+}
+export default SvgFileTypeImage;
+

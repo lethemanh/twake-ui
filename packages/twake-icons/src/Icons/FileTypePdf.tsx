@@ -1,0 +1,25 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgFileTypePdf(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 15 16"
+      {...props}
+    >
+      <path
+        fill="#fdf5f4"
+        stroke="#d32c3c"
+        d="M3.2.5h5.792L13.9 5.407V12.8a2.7 2.7 0 0 1-2.7 2.7h-8a2.7 2.7 0 0 1-2.7-2.7V3.2A2.7 2.7 0 0 1 3.2.5Z"
+      />
+      <path
+        fill="#d32c3c"
+        d="M14.4 5.4 9 0v2.793C9 4.233 10.128 5.4 11.52 5.4zM2.757 12.8V9.2h1.486q.383 0 .67.158.288.159.448.445.16.285.16.67t-.165.67a1.1 1.1 0 0 1-.46.435 1.5 1.5 0 0 1-.687.153h-.888v-.76h.7q.165 0 .28-.059a.43.43 0 0 0 .18-.174.53.53 0 0 0 .064-.265.5.5 0 0 0-.063-.264.4.4 0 0 0-.18-.169.6.6 0 0 0-.281-.06h-.33v2.82zm4.431 0H5.863V9.2h1.312q.531 0 .918.216.388.215.598.619.213.402.212.965c-.001.563-.07.697-.21.967q-.21.402-.595.618a1.84 1.84 0 0 1-.91.215m-.39-.83h.357a1 1 0 0 0 .435-.086.57.57 0 0 0 .276-.297q.096-.21.096-.587 0-.376-.098-.587a.57.57 0 0 0-.282-.297 1.1 1.1 0 0 0-.454-.086h-.33zm2.538.83V9.2h2.42v.787H10.27v.62h1.339v.787H10.27V12.8z"
+      />
+    </svg>
+  );
+}
+export default SvgFileTypePdf;
+

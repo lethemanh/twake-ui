@@ -1,0 +1,31 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgFileTypeBankingAccount(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 15 17"
+      {...props}
+    >
+      <path
+        fill="#f2f7ff"
+        stroke="#1d7aff"
+        d="M3.52 1.3h5.792l4.908 4.907V13.6a2.7 2.7 0 0 1-2.7 2.7h-8a2.7 2.7 0 0 1-2.7-2.7V4a2.7 2.7 0 0 1 2.7-2.7Z"
+      />
+      <path
+        fill="#1d7aff"
+        d="M14.72 6.2 9.32.8v2.793c0 1.44 1.128 2.607 2.52 2.607z"
+      />
+      <path
+        fill="#1d7aff"
+        fillRule="evenodd"
+        d="M7.31 6.519 3.82 8.735v.86h6.982v-.86zm1.75 5.715h.876v-2.188H9.06zm-2.187 0h.875v-2.188h-.875zm-2.187 0h.875v-2.188h-.875zm-.866 1.312h6.982v-.875H3.82z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+}
+export default SvgFileTypeBankingAccount;
+
