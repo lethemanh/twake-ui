@@ -1,0 +1,30 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgFileDuotone(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 16" {...props}>
+      <g clipPath="url(#file-duotone_svg__a)">
+        <path
+          fillRule="evenodd"
+          d="M1 2S2.837.25 3.45.25h5.694l5.372 5-.066 8c0 .131-.596 1.085-.651 1.207a1 1 0 0 1-.24.325 1.1 1.1 0 0 1-.36.217c-.133.05-1.354.708-1.5.708l-8.75.043c.001 0-1.15-.484-1.284-.534A1.1 1.1 0 0 1 1.306 15a1 1 0 0 1-.24-.325C1.011 14.553.45 13.381.45 13.25.477 6.251 1 2 1 2"
+          clipRule="evenodd"
+          opacity={0.242}
+        />
+        <path
+          fillRule="evenodd"
+          d="M3.4 0A3.2 3.2 0 0 0 .2 3.2v9.6A3.2 3.2 0 0 0 3.4 16h8a3.2 3.2 0 0 0 3.2-3.2V5.2L9.4 0zm0 1a2.2 2.2 0 0 0-2.2 2.2v9.6A2.2 2.2 0 0 0 3.4 15h8a2.2 2.2 0 0 0 2.2-2.2V5.614L8.986 1z"
+          clipRule="evenodd"
+        />
+        <path d="M14.6 5.4 9.2 0v2.793c0 1.44 1.128 2.607 2.52 2.607z" />
+      </g>
+      <defs>
+        <clipPath id="file-duotone_svg__a">
+          <path d="M.2 0h14.4v16H.2z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+export default SvgFileDuotone;
+

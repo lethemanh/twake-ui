@@ -1,0 +1,72 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgOnlyOffice(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 16 16"
+      {...props}
+    >
+      <g
+        fillRule="evenodd"
+        clipPath="url(#only-office_svg__a)"
+        clipRule="evenodd"
+      >
+        <path
+          fill="url(#only-office_svg__b)"
+          d="m7 15.172-6.58-3.02c-.56-.264-.56-.672 0-.912l2.291-1.055 4.265 1.966c.56.264 1.463.264 1.999 0l4.265-1.966 2.29 1.055c.561.264.561.671 0 .911l-6.58 3.021c-.511.24-1.413.24-1.95 0"
+        />
+        <path
+          fill="url(#only-office_svg__c)"
+          d="M7 11.456.42 8.436c-.56-.265-.56-.672 0-.912l2.243-1.03L7 8.483c.56.263 1.462.263 1.998 0l4.338-1.99 2.242 1.03c.561.264.561.671 0 .911L9 11.456c-.56.264-1.462.264-1.998 0Z"
+        />
+        <path
+          fill="url(#only-office_svg__d)"
+          d="M7 7.836.42 4.815c-.56-.264-.56-.672 0-.911L7 .883c.561-.264 1.463-.264 2 0l6.58 3.02c.56.264.56.672 0 .912L9 7.835c-.561.24-1.463.24-2 0Z"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="only-office_svg__b"
+          x1={7.994}
+          x2={7.994}
+          y1={18.035}
+          y2={7.007}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#fcc2b1" />
+          <stop offset={0.885} stopColor="#d9420b" />
+        </linearGradient>
+        <linearGradient
+          id="only-office_svg__c"
+          x1={7.994}
+          x2={7.994}
+          y1={13.26}
+          y2={6.007}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#deedc9" />
+          <stop offset={0.661} stopColor="#8bba25" />
+        </linearGradient>
+        <linearGradient
+          id="only-office_svg__d"
+          x1={7.994}
+          x2={7.994}
+          y1={10.323}
+          y2={0.453}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#c2ebfa" />
+          <stop offset={1} stopColor="#26a8de" />
+        </linearGradient>
+        <clipPath id="only-office_svg__a">
+          <path fill="#fff" d="M0 .556h16v14.889H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+export default SvgOnlyOffice;
+

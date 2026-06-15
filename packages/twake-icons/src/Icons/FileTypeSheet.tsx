@@ -1,0 +1,31 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgFileTypeSheet(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 15 17"
+      {...props}
+    >
+      <path
+        fill="#f5fdf7"
+        stroke="#248a3d"
+        d="M3.52 1.3h5.792l4.908 4.907V13.6a2.7 2.7 0 0 1-2.7 2.7h-8a2.7 2.7 0 0 1-2.7-2.7V4a2.7 2.7 0 0 1 2.7-2.7Z"
+      />
+      <path
+        fill="#248a3d"
+        d="M14.72 6.2 9.32.8v2.793c0 1.44 1.128 2.607 2.52 2.607z"
+      />
+      <path
+        fill="#34c759"
+        fillRule="evenodd"
+        d="M5.356 9.2h1.32l.806 1.239.824-1.234h1.302l-1.54 2.085 1.608 2.306H8.477l-1.009-1.444-.577.86h.585v.588h-2.2l1.6-2.296z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+}
+export default SvgFileTypeSheet;
+

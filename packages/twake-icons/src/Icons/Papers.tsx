@@ -1,0 +1,71 @@
+// Automatically created, please run `scripts/generate-svgr.sh ` to regenerate;
+import * as React from "react";
+import type { SVGProps } from "react";
+function SvgPapers(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 16 16"
+      {...props}
+    >
+      <g clipPath="url(#papers_svg__a)">
+        <path
+          fill="url(#papers_svg__b)"
+          d="M10.716 0H5.284A5.284 5.284 0 0 0 0 5.284v5.432A5.284 5.284 0 0 0 5.284 16h5.432A5.284 5.284 0 0 0 16 10.716V5.284A5.284 5.284 0 0 0 10.716 0"
+        />
+        <g fill="#fff" filter="url(#papers_svg__c)">
+          <path d="M5.5 5A1.5 1.5 0 0 1 7 3.5h5A1.5 1.5 0 0 1 13.5 5v3A1.5 1.5 0 0 1 12 9.5h-.25V8A2.75 2.75 0 0 0 9 5.25H5.5z" />
+          <path d="M4 6.5A1.5 1.5 0 0 0 2.5 8v3A1.5 1.5 0 0 0 4 12.5h5a1.5 1.5 0 0 0 1.5-1.5V8A1.5 1.5 0 0 0 9 6.5z" />
+        </g>
+      </g>
+      <defs>
+        <linearGradient
+          id="papers_svg__b"
+          x1={2.162}
+          x2={15.012}
+          y1={14.686}
+          y2={0}
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#e97c00" />
+          <stop offset={1} stopColor="#ffd900" />
+        </linearGradient>
+        <clipPath id="papers_svg__a">
+          <path fill="#fff" d="M0 0h16v16H0z" />
+        </clipPath>
+        <filter
+          id="papers_svg__c"
+          width={13.843}
+          height={11.843}
+          x={1.079}
+          y={2.363}
+          colorInterpolationFilters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood floodOpacity={0} result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset dy={0.284} />
+          <feGaussianBlur stdDeviation={0.711} />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_11291_1044"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_11291_1044"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+}
+export default SvgPapers;
+
