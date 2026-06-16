@@ -1,8 +1,0 @@
-@keyframes twake-icon-spin {
-  from {
-    transform: rotate(0deg) translateZ(0);
-  }
-  to {
-    transform: rotate(360deg) translateZ(0);
-  }
-}
