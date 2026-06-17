@@ -1,7 +1,6 @@
 {
   "name": "twake-ui",
   "private": true,
-  "version": "0.1.4",
   "description": "Twake UI monorepo - Shared UI components and theme system for Twake applications",
   "author": "Twake",
   "license": "MIT",
