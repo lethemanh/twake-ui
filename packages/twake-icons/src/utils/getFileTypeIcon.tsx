@@ -1,5 +1,5 @@
 import { lookup } from 'mime-types'
-import React from 'react'
+import type { SVGProps } from 'react'
 
 import { mimeToIcon, defaultIcon } from './fileTypeIcons'
 
@@ -13,7 +13,7 @@ import { mimeToIcon, defaultIcon } from './fileTypeIcons'
 export function getFileTypeIcon(
   filename: string,
   mimeType?: string
-): (props: React.SVGProps<SVGSVGElement>) => JSX.Element {
+): (props: SVGProps<SVGSVGElement>) => JSX.Element {
   const resolvedMimeType =
     mimeType?.split(';')[0].trim().toLowerCase() || lookup(filename)
 
