@@ -1,3 +1,11 @@
+# @linagora/twake-icons [2.3.0](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.2.0...@linagora/twake-icons@2.3.0) (2026-06-17)
+
+
+### Features
+
+* Add barrel check and generator ([482572c](https://github.com/linagora/twake-ui/commit/482572c9fe7dc8a63cc703abf11a2cf05997b3f7))
+* **twake-icons:** Update doc ([d763a7e](https://github.com/linagora/twake-ui/commit/d763a7e9ba02af229acbe63240836169242b6a12))
+
 # [2.2.0](https://github.com/linagora/twake-ui/compare/v2.1.0...v2.2.0) (2026-06-16)
 
 
