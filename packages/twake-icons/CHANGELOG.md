@@ -1,3 +1,10 @@
+## @linagora/twake-icons [2.4.1](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.4.0...@linagora/twake-icons@2.4.1) (2026-06-18)
+
+
+### Bug Fixes
+
+* **twake-icons:** Changed mime library to one that works in browsers (mime/lite) ([00ce94f](https://github.com/linagora/twake-ui/commit/00ce94fd1b9d95f52e0dc480dfe2ab181420e97e))
+
 # @linagora/twake-icons [2.4.0](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.3.0...@linagora/twake-icons@2.4.0) (2026-06-18)
 
 
