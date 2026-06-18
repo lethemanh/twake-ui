@@ -1,3 +1,10 @@
+# @linagora/twake-icons [2.4.0](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.3.0...@linagora/twake-icons@2.4.0) (2026-06-18)
+
+
+### Features
+
+* **twake-icons:** Added getFileTypeIcon function util ([450a8ff](https://github.com/linagora/twake-ui/commit/450a8ff80fc74ca1f6b77f8e72f4ff86094c6431))
+
 # @linagora/twake-icons [2.3.0](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.2.0...@linagora/twake-icons@2.3.0) (2026-06-17)
 
 
