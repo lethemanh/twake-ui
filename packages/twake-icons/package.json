@@ -43,6 +43,7 @@
     "build:doc": "storybook build --output-dir storybook-static",
     "build:icons": "npm run svgo && npm run makeSvgr && npm run sprite",
     "start": "tsc --watch",
+    "test": "vitest run",
     "clean": "rm -rf dist",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
@@ -70,6 +71,11 @@
     "storybook": "10.4.5",
     "svgo": "4.0.1",
     "svgstore-cli": "2.0.1",
-    "vite": "8.0.16"
+    "vite": "8.0.16",
+    "vitest": "4.1.5"
+  },
+  "dependencies": {
+    "@types/mime-types": "^3.0.1",
+    "mime-types": "^3.0.2"
   }
 }
