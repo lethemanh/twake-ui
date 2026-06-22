@@ -1,3 +1,10 @@
+## @linagora/twake-icons [2.6.1](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.0...@linagora/twake-icons@2.6.1) (2026-06-22)
+
+
+### Bug Fixes
+
+* **twake-icons:** Use css class instead of inline style ([b905906](https://github.com/linagora/twake-ui/commit/b90590622d2f0370560747b1a10e65835cce56e3))
+
 # @linagora/twake-icons [2.6.0](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.5.0...@linagora/twake-icons@2.6.0) (2026-06-22)
 
 
