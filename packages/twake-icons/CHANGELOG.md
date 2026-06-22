@@ -1,3 +1,10 @@
+# @linagora/twake-icons [2.5.0](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.4.1...@linagora/twake-icons@2.5.0) (2026-06-22)
+
+
+### Features
+
+* **twake-icons:** Use exact code from cozy-ui ([cf5ae51](https://github.com/linagora/twake-ui/commit/cf5ae517a3e37006c62a10c28116ceb3ea92a670))
+
 ## @linagora/twake-icons [2.4.1](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.4.0...@linagora/twake-icons@2.4.1) (2026-06-18)
 
 
