@@ -3,6 +3,7 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.test.tsx", "**/*.stories.ts", "**/*.stories.tsx"],
   "compilerOptions": {
+    "target": "ES2019",
     "rootDir": "./src",
     "outDir": "./dist",
     "declarationDir": "./dist",
