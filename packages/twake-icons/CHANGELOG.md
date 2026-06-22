@@ -1,3 +1,10 @@
+## @linagora/twake-icons [2.6.2](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.1...@linagora/twake-icons@2.6.2) (2026-06-22)
+
+
+### Bug Fixes
+
+* **twake-icons:** Mark styles module as side effect to prevent CSS tree-shaking ([29f86c8](https://github.com/linagora/twake-ui/commit/29f86c8dd724b94161d358df99b81d06b19bdc98))
+
 ## @linagora/twake-icons [2.6.1](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.0...@linagora/twake-icons@2.6.1) (2026-06-22)
 
 
