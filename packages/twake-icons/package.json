@@ -27,7 +27,7 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "sideEffects": false,
+  "sideEffects": ["dist/Icon/styles.js"],
   "files": [
     "dist",
     "README.md",
