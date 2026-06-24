@@ -1,5 +1,7 @@
-if (typeof document !== 'undefined') {
-  const style = document.createElement('style')
+const doc = globalThis.document
+
+if (doc) {
+  const style = doc.createElement('style')
   style.textContent = `
     @keyframes twake-icon-spin {
       from { transform: rotate(0deg) translateZ(0); }
@@ -9,5 +11,5 @@ if (typeof document !== 'undefined') {
     .twake-icon--preserveColor { fill: inherit; }
     .twake-icon--spin { animation: twake-icon-spin 1s linear infinite; }
   `
-  document.head.appendChild(style)
+  doc.head.appendChild(style)
 }
