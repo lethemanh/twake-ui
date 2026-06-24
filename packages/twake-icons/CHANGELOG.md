@@ -1,3 +1,10 @@
+## @linagora/twake-icons [2.6.5](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.4...@linagora/twake-icons@2.6.5) (2026-06-24)
+
+
+### Bug Fixes
+
+* **twake-icons:** Bundle mime for CJS consumers ([12878f4](https://github.com/linagora/twake-ui/commit/12878f4317ce76379e73647916b52a3273a11a13))
+
 ## @linagora/twake-icons [2.6.4](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.3...@linagora/twake-icons@2.6.4) (2026-06-24)
 
 
