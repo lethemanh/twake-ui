@@ -1,3 +1,10 @@
+## @linagora/twake-icons [2.6.6](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.5...@linagora/twake-icons@2.6.6) (2026-06-25)
+
+
+### Bug Fixes
+
+* Missed some props on SVG Icons (Cube and Spinner) ([3f48a97](https://github.com/linagora/twake-ui/commit/3f48a97006c0aa877a18d72fd932585b845f45e1))
+
 ## @linagora/twake-icons [2.6.5](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.4...@linagora/twake-icons@2.6.5) (2026-06-24)
 
 
