@@ -1,3 +1,10 @@
+## @linagora/twake-icons [2.6.7](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.6...@linagora/twake-icons@2.6.7) (2026-07-01)
+
+
+### Bug Fixes
+
+* Allow any React component to be rendered in Icon ([d3bdaa4](https://github.com/linagora/twake-ui/commit/d3bdaa498f4b4a91ad489b678369a78345d52dba))
+
 ## @linagora/twake-icons [2.6.6](https://github.com/linagora/twake-ui/compare/@linagora/twake-icons@2.6.5...@linagora/twake-icons@2.6.6) (2026-06-25)
 
 
